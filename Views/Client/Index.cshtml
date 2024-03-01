@@ -26,7 +26,7 @@
                     <th>Phone number</th>
                     <th>Email</th>
                     <th>Order</th>
-                    <th>Action</th>
+                    <th class="small">Action</th>
 
                 </tr>
             </thead>
@@ -42,7 +42,7 @@
                         <td>@obj.Email</td>
                         <td>@obj.Order</td>
                     
-                        <td>
+                        <td >
                             <div class="btn-group" role="group">
                                 <a asp-controller="Client" asp-action="Edit" asp-route-id="@obj.Id" class="btn btn-success mx-3 rounded">
                                     <i class="bi bi-pencil-square"></i> Edit
